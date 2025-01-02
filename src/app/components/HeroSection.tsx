@@ -5,7 +5,8 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <div className="bg-[url('/bg.jpg')] bg-cover">
+
+    <div className="sm:grid-cols-1 bg-[url('/bg.jpg')] bg-cover">
       <div className="container mx-auto px-4 py-80 space-y-9 md:space-y-12 font-bold text-2xl md:text-3xl">
         <div>
         <p className="text-white uppercase tracking-wider text-sm font-semibold">

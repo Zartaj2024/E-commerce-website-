@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header1 = () => {
   return (
-    <div className="flex justify-between items-center pb-3 pt-3 font-bold p-3">
+    <div className="hidden md:flex justify-between items-center pb-3 pt-3 font-bold p-3">
       <div className="flex gap-4">
         <div className="flex pt-3 pb-3 gap-2">
           <Image
