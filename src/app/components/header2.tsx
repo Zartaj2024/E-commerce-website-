@@ -16,7 +16,7 @@ const Header2 = () => {
         </div>
       </div>
       <div className="flex justify-center md:justify-end">
-        <Image src="/login.png" alt="Login" width={300} height={10} />
+        <Image src="/login.png" alt="Login" width={300} height={100} />
       </div>
     </div>
   );
