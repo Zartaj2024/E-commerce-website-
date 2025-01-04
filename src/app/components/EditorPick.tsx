@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const EditorPick = () => {
   return (
@@ -17,16 +17,16 @@ const EditorPick = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-[1350px] h-[400px]">
           {/* Large Image */}
           <div className="col-span-2 relative">
             <Image
               src="/men.png"
               alt="Men"
               layout="responsive"
-              width={500}
+              width={400}
               height={300}
-              className="w-full h-full object-cover"
+              className="w-[200] h-[200] "
             />
             <button className="absolute bottom-4 left-4 bg-white text-gray-800 font-semibold py-2 px-4 rounded shadow-lg" aria-label="View Men Collection">
               Men
@@ -41,23 +41,24 @@ const EditorPick = () => {
                 src="/women.png"
                 alt="Women"
                 layout="responsive"
-                width={250}
-                height={150}
-                className="w-full h-full object-cover"
+                width={450}
+                height={1420}
+                className="w-[450px] h-[1420px]"
               />
               <button className="absolute bottom-4 left-4 bg-white text-gray-800 font-semibold py-2 px-4 rounded shadow-lg" aria-label="View Women Collection">
                 Women
               </button>
             </div>
+            <div className="space-y-5">
             {/* Accessories */}
             <div className="relative">
               <Image
                 src="/acce.png"
                 alt="Accessories"
                 layout="responsive"
-                width={250}
-                height={150}
-                className="w-full h-full object-cover"
+                width={450}
+                height={685}
+                className="w-full h-full "
               />
               <button className="absolute bottom-4 left-4 bg-white text-gray-800 font-semibold py-2 px-4 rounded shadow-lg" aria-label="View Accessories Collection">
                 Accessories
@@ -69,13 +70,14 @@ const EditorPick = () => {
                 src="/kids.png"
                 alt="Kids"
                 layout="responsive"
-                width={500}
-                height={100}
-                className="w-full h-[100px] object-cover"
+                width={450}
+                height={685}
+                className="w-full h-[100px] "
               />
               <button className="absolute bottom-4 left-4 bg-white text-gray-800 font-semibold py-2 px-4 rounded shadow-lg" aria-label="View Kids Collection">
                 Kids
               </button>
+            </div>
             </div>
           </div>
         </div>

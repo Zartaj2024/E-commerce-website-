@@ -1,6 +1,6 @@
 // pages/products/vita-classic.js
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const VitaClassicProduct = () => {
   
@@ -26,7 +26,7 @@ const VitaClassicProduct = () => {
             src="/shop-hero.png"
             alt="Vita Classic Product"
             width={700}
-            height={700}
+            height={939}
             className="w-full h-full"
           />
         

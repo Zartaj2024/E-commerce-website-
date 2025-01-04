@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Products from "../components/Page2products"
 
 export default function Page2() {
@@ -47,7 +47,7 @@ export default function Page2() {
           <h1>Pages</h1>
         </div>
         <div>
-          <Image src="/login.png" alt="login" className="" width={300} height={300} />
+          <Image src="/login.png" alt="login" className="" width={350} height={100} />
       </div>
       </div>
 
@@ -66,7 +66,7 @@ export default function Page2() {
         </div>
 
         <div className="flex justify-center items-center gap-5 font-bold px-[160px] p-8 m-8 ">
-          <Image src="/shopclo1.png" alt="Shop Clothes" className=" w-[250px] h-[250px]" width={250} height={100} />
+          <Image src="/shopclo1.png" alt="Shop Clothes" className=" w-[250px] h-[250px]" width={500} height={500} />
           <Image src="/shopclo2.png" alt="Shop Clothes" className=" w-[250px] h-[250px]" width={500} height={500} />
           <Image src="/shopclo3.png" alt="Shop Clothes" className=" w-[250px] h-[250px]" width={500} height={500} />
           <Image src="/shopclo4.png" alt="Shop Clothes" className=" w-[250px] h-[250px]" width={500} height={500} />
@@ -79,8 +79,13 @@ export default function Page2() {
         <Image src="/Page2sort.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
         <Image src="/Page2sort2.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
       </div>
-      <div className="bg-[#FAFAFA] px-[350px]">
-        <Image src="/Page2.4.png" alt="Page23" className="h-[200px] w-[1200px]" width={1200} height={200} />
+      <div className="bg-[#FAFAFA] px-[160px]">
+        <Image src="/hooli.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
+        <Image src="/lyft.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
+        <Image src="/leaf.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
+        <Image src="/strip.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
+        <Image src="/aws.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
+        <Image src="/alien.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
       </div>
 
       <div>

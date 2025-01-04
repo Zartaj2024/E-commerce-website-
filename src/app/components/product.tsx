@@ -1,5 +1,5 @@
 // pages/index.js
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import React from "react";
 
@@ -77,7 +77,7 @@ const ProductGrid = () => {
               alt={product.title}
               width={500}
               height={500}
-              className="object-cover mb-4 mx-auto"
+              className=" mb-4 mx-auto"
             />
 
             <div className="p-4 place-items-center ">

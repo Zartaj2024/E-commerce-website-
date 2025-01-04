@@ -3,7 +3,7 @@ import React from "react";
 
 
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Footer = () => {
   return (
@@ -12,10 +12,10 @@ const Footer = () => {
         <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8 m-40px p-40px">
           <div className="flex justify-between items-center bg-[#FAFAFA] p-7 w-full h-[120px] px-10 py-10">
             <div>
-              <Image src="/Bandage.png" alt="Bandage logo" width={100} height={100} className="w-[100px]" />
+              <Image src="/Bandage.png" alt="Bandage logo" width={250} height={50} className="w-[100px]" />
             </div>
             <div className="flex space-x-4">
-              <Image src="/social2.png" alt="Social media icons" width={250} height={100} className="w-[250px]" />
+              <Image src="/social2.png" alt="Social media icons" width={250} height={50} className="w-[250px]" />
             </div>
           </div>
           <div className="mt-10 mb-10 grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pt-10 pb-10 px-10 py-10">

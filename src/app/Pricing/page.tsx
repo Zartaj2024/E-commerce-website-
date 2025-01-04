@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Footer from "../components/footer"
 export default function Pricing() {
   return (
@@ -53,7 +53,7 @@ export default function Pricing() {
           src="/switch.png"
           alt="switch"
           width={350}
-          height={200}
+          height={50}
           className="justify-center items-center mx-auto"
         />
 
@@ -83,7 +83,7 @@ export default function Pricing() {
                   src="/features-list.png"
                   alt="list"
                   width={250}
-                  height={30}
+                  height={150}
                   className="mx-auto"
                 />
               </div>
@@ -117,7 +117,7 @@ export default function Pricing() {
                   src="/features-list.png"
                   alt="list"
                   width={250}
-                  height={30}
+                  height={150}
                   className="mx-auto"
                 />
               </div>
@@ -150,7 +150,7 @@ export default function Pricing() {
                   src="/features-list.png"
                   alt="list"
                   width={250}
-                  height={30}
+                  height={150}
                   className="mx-auto"
                 />
               </div>
@@ -303,7 +303,7 @@ export default function Pricing() {
                 src="/Rsocial.png"
                 alt="social logo"
                 width={240}
-                height={140}
+                height={50}
                 className="mx-auto"
               />
             </div>

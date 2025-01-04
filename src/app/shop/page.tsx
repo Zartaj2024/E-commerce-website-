@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Footer from "../components/footer"
 const products = [
   {
@@ -57,7 +57,7 @@ function Shop() {
   return (
     <div>
       {/* Header */}
-      <div className="flex flex-row justify-center items-center space-x-5 pb-5 pt-5   gap-9 bg-[#23856D] text-500 ">
+      <div className="flex flex-row justify-center items-center space-x-5 pb-5 pt-5   gap-9 bg-[#23856D] text-500 mx-auto">
         <div className="flex gap-8">
           <div className="flex pt-3 pb-3">
             <Image src="/phone.png" alt="phone" width={20} height={10} />
@@ -100,7 +100,7 @@ function Shop() {
           <h1>Pages</h1>
         </div>
         <div>
-          <Image src="/login.png" alt="login" width={350} height={350} />
+          <Image src="/login.png" alt="login" width={250} height={100} />
         </div>
       </div>
 
@@ -119,7 +119,7 @@ function Shop() {
               <div className="relative mb-4 w-[400px]">
                 <Image
                   alt="product"
-                  className="w-full h-full object-cover object-center rounded"
+                  className="w-full h-full  object-center rounded"
                   src="/p1.png"
                   width={400}
                   height={400}
@@ -136,14 +136,14 @@ function Shop() {
                 <Image
                   src="/p2.png"
                   alt="thumbnail"
-                  className="w-16 h-16 object-cover border-2 border-gray-300 hover:border-blue-400"
+                  className="w-16 h-16  border-2 border-gray-300 hover:border-blue-400"
                   width={64}
                   height={64}
                 />
                 <Image
                   src="/p3.png"
                   alt="thumbnail"
-                  className="w-16 h-16 object-cover border-2 border-gray-300 hover:border-blue-400"
+                  className="w-16 h-16  border-2 border-gray-300 hover:border-blue-400"
                   width={64}
                   height={64}
                 />
@@ -336,14 +336,14 @@ function Shop() {
         {products.map((product, index) => (
           <div
             key={index}
-            className="bg-white  overflow-hidden shadow w-[250px] h-[570px] justify-center items-center   "
+            className="bg-white  overflow-hidden shadow w-[250px] h-[550px] justify-center items-center   "
           >
             <Image
               src={product.image}
               alt={product.title}
               width={250}
-              height={200}
-              className="object-cover "
+              height={400}
+              className="h-full w-full "
             />
 
             <div className="p-4 place-items-center ">
@@ -377,8 +377,7 @@ function Shop() {
                 <section>
                   <Footer/>
                 </section>
-      {/* Additional Sections */}
-      {/* ... (other sections remain unchanged) ... */}
+   
     </div>
   );
 }

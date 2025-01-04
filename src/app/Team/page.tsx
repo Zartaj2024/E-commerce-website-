@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import Footer from "../components/footer"
 const team =[
@@ -103,7 +103,7 @@ export default function Team() {
       </section>
       <section className="bg-[#FFFFFF]">
         <div className="flex justify-center items-center gap-2 ">
-            <Image src="/tpic1.png" alt="pic1" width={550} height={150} />
+            <Image src="/tpic1.png" alt="pic1" width={550} height={410} />
            <div className="space-y-2">
             <div>
             <Image src="/tpic2.png" alt="pic2" width={285} height={200} />
@@ -142,7 +142,7 @@ export default function Team() {
           />
           <h1 className="font-bold text-black">{member.title}</h1>
           <h1 className="font-bold text-gray-500">{member.profession}</h1>
-          <Image src="/social2.png" alt="social" width={250} height={150} className="mx-auto"/>
+          <Image src="/social2.png" alt="social" width={250} height={30} className="mx-auto"/>
         </div>
       ))}
             </div>
@@ -158,8 +158,8 @@ export default function Team() {
             <Image
                 src="/Rsocial.png"
                 alt="social logo"
-                width={240}
-                height={140}
+                width={250}
+                height={100}
                 className="mx-auto"
               />
             </div>

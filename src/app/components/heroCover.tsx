@@ -1,6 +1,6 @@
 // components/HeroSection.js
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 
 export default function HeroSection() {
@@ -10,8 +10,8 @@ export default function HeroSection() {
        <Image
        src="/hero-cover-1.png"
        alt="heroCover"
-       width={300}
-       height={300}
+       width={800}
+       height={1120}
        className="w-full h-full"
        ></Image>
         

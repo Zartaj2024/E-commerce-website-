@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer"
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 const team =[
   {
@@ -107,7 +107,7 @@ met sent.</p>
   </div>
 </section>
 <section>
-  <Image src="/desktop-video-3.png" alt="video" width={1950} height={100}/>
+  <Image src="/desktop-video-3.png" alt="video" width={1950} height={1000}/>
 </section>
 <section>
 <div>
@@ -128,7 +128,7 @@ met sent.</p>
           />
           <h1 className="font-bold text-black">{member.title}</h1>
           <h1 className="font-bold text-gray-500">{member.profession}</h1>
-          <Image src="/social2.png" alt="social" width={250} height={150} className="x-10 y-10"/>
+          <Image src="/social2.png" alt="social" width={150} height={50} className="x-10 y-10"/>
         </div>
       ))}
     </Link>
@@ -146,12 +146,12 @@ met sent.</p>
 
     </div>
     <div className="flex gap-5 justify-center items-center">
-      <Image src="/hooli.png" alt="hooli" width={200} height={200}/>
-      <Image src="/lyft.png" alt="hooli" width={200} height={200}/>
-      <Image src="/leaf.png" alt="hooli" width={200} height={200}/>
-      <Image src="/strip.png" alt="hooli" width={200} height={200}/>
-      <Image src="/aws.png" alt="hooli" width={200} height={200}/>
-      <Image src="/alien.png" alt="hooli" width={200} height={200}/>
+      <Image src="/hooli.png" alt="hooli" width={200} height={150}/>
+      <Image src="/lyft.png" alt="hooli" width={200} height={150}/>
+      <Image src="/leaf.png" alt="hooli" width={200} height={150}/>
+      <Image src="/strip.png" alt="hooli" width={200} height={150}/>
+      <Image src="/aws.png" alt="hooli" width={200} height={150}/>
+      <Image src="/alien.png" alt="hooli" width={200} height={150}/>
     </div>
   </div>
 </section>
