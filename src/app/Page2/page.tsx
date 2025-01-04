@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import Image from "next/legacy/image";
 import Products from "../components/Page2products"
 
