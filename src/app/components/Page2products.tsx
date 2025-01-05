@@ -103,7 +103,7 @@ export default function Page2Products() {
           {products.map((product, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px]"
               onClick={() => product}
             >
               <Link href="/shop">
@@ -111,9 +111,9 @@ export default function Page2Products() {
                 <Image
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto "
                   width={300}
-                  height={400}
+                  height={300}
                 />
 
                 {/* Product Content */}

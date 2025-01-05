@@ -5,15 +5,9 @@ import Image from "next/legacy/image";
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center h-screen py-2 bg-gray-100 w-full p-40 " >
-      <div className="relative w-[960px] h-[960px] px-24 py-5">
-       <Image
-       src="/hero-cover-1.png"
-       alt="heroCover"
-       width={800}
-       height={1120}
-       className="w-full h-full"
-       ></Image>
+    <div className="flex flex-col md:flex-row items-center justify-center h-full py-2 bg-gray-100 w-full p-40 " >
+      <div className="relative w-[1160px] h-[960px] px-24 py-5 bg-[url('/hero-cover-1.png')] bg-cover">
+ 
         
       </div>
       <div className="w-1/2 p-8 space-y-10">

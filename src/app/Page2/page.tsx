@@ -37,7 +37,7 @@ export default function Page2() {
       {/* Navbar */}
       <div className="bg-white flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] h-[90px] text-black">
         <div>
-          <Image src="/Bandage.png" alt="Logo" className="w-[150px] h-[50px]" width={150} height={50} />
+          <Image src="/Bandage.png" alt="Logo" className="w-[100px] h-[50px]" width={100} height={35} />
         </div>
         <div className="flex gap-4">
           <Link href="/">Home</Link>
@@ -47,7 +47,7 @@ export default function Page2() {
           <h1>Pages</h1>
         </div>
         <div>
-          <Image src="/login.png" alt="login" className="" width={350} height={100} />
+          <Image src="/login.png" alt="login" className="" width={350} height={70} />
       </div>
       </div>
 
@@ -58,7 +58,7 @@ export default function Page2() {
             <div>
               <Link href="/">Home</Link>
             </div>
-            ›
+            
             <div>
               <h1>Shop</h1>
             </div>
@@ -79,7 +79,7 @@ export default function Page2() {
         <Image src="/Page2sort.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
         <Image src="/Page2sort2.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
       </div>
-      <div className="bg-[#FAFAFA] px-[160px]">
+      <div className="bg-[#FAFAFA] px-[160px] h-[200px] px-5 py-10">
         <Image src="/hooli.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
         <Image src="/lyft.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />
         <Image src="/leaf.png" alt="Page23" className="h-[200px] w-[1200px]" width={250} height={100} />

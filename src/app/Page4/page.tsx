@@ -128,7 +128,7 @@ met sent.</p>
           />
           <h1 className="font-bold text-black">{member.title}</h1>
           <h1 className="font-bold text-gray-500">{member.profession}</h1>
-          <Image src="/social2.png" alt="social" width={150} height={50} className="x-10 y-10"/>
+          <Image src="/social2.png" alt="social" width={200} height={30} className="x-10 y-10"/>
         </div>
       ))}
     </Link>
@@ -137,7 +137,7 @@ met sent.</p>
 </div>
 </section>
 
-<section className="bg-[#FAFAFA] px-10 py-10 space-y-10">
+<section className="bg-[#FAFAFA] px-10 py-10 py-10 h-[500px]  ">
   <div >
     <div className="justify-center text-center w-full px-10 py-10 space-y-10">
       <h2 className="font-bold text-6xl text-black">Big Companies Are Here</h2>
@@ -146,12 +146,12 @@ met sent.</p>
 
     </div>
     <div className="flex gap-5 justify-center items-center">
-      <Image src="/hooli.png" alt="hooli" width={200} height={150}/>
-      <Image src="/lyft.png" alt="hooli" width={200} height={150}/>
-      <Image src="/leaf.png" alt="hooli" width={200} height={150}/>
-      <Image src="/strip.png" alt="hooli" width={200} height={150}/>
-      <Image src="/aws.png" alt="hooli" width={200} height={150}/>
-      <Image src="/alien.png" alt="hooli" width={200} height={150}/>
+      <Image src="/hooli.png" alt="hooli" width={200} height={100}/>
+      <Image src="/lyft.png" alt="hooli" width={200} height={100}/>
+      <Image src="/leaf.png" alt="hooli" width={200} height={100}/>
+      <Image src="/strip.png" alt="hooli" width={200} height={100}/>
+      <Image src="/aws.png" alt="hooli" width={200} height={100}/>
+      <Image src="/alien.png" alt="hooli" width={200} height={100}/>
     </div>
   </div>
 </section>
@@ -160,7 +160,7 @@ met sent.</p>
       <div className="flex justify-center items-center  bg-[#2A7CC7] ">
       <div className="space-y-10 space-x-20 px-[230px] text-white text-start font-bold bg-blue-">
         <div><h1 className="px-20"> WORK WITH US</h1></div>
-        <div><h1 className="font-bold text-6xl">Now Let’s grow Yours</h1></div>
+        <div><h1 className="font-bold text-6xl">Now Lets grow Yours</h1></div>
         <div><h1 className="text-white">The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th </h1></div>
         <div>        <button className="bg-blue-400 text-white font-bold py-4 px-4 border border-white rounded hover:bg-blue-700">Button</button></div>
       </div>

@@ -53,7 +53,7 @@ export default function Contact() {
                 alt="logo"
                 width={150}
                 height={50}
-                className=""
+                className="w-full h-full"
               />
             </div>
           </div>
@@ -137,8 +137,8 @@ export default function Contact() {
             height={100}
             className="mx-auto"
           />
-          <h1>WE Can't WAIT TO MEET YOU</h1>
-          <h1 className="text-7xl">Let’s Talk</h1>
+          <h1>WE Cant WAIT TO MEET YOU</h1>
+          <h1 className="text-7xl">Lets Talk</h1>
           <button className="border rounded w-[200px] h-[50px] bg-[#23A6F0] text-white">
             Try it free now
           </button>

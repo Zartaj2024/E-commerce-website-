@@ -93,7 +93,7 @@ export default function Team() {
             <Link href="/" className="text-black">Home</Link>
           </div>
           <div>
-            <h1 className="text-gray-400 text-2xl ">›</h1>
+            
           </div>
           <div>
             <h1 className="text-gray-300">Team</h1>

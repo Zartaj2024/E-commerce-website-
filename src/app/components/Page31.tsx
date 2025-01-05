@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Page31 = () => {
   return (
-    <div
-      className="h-screen bg-no-repeat bg-center bg-cover"
-      style={{ backgroundImage: "url('/background.jpg')" }}
+  <div
+      className="h-screen bg-no-repeat bg-center bg-cover bg-[url('/background.jpg')] bg-cover"
+    
     >
       <header className="text-gray-600 body-font border-2  bg-[#FFFFFF] h-[105px] px-5 py-5">
         <div className="container mx-auto flex justify-between items-center p-4">

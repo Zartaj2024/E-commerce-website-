@@ -90,7 +90,7 @@ function Shop() {
       {/* Navbar */}
       <div className="bg-white flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] h-[90px] text-black">
         <div>
-          <Image src="/Bandage.png" alt="bandage" width={150} height={50} />
+          <Image src="/Bandage.png" alt="bandage" width={100} height={35} />
         </div>
         <div className="flex gap-4">
           <Link href="/">Home</Link>
@@ -100,7 +100,7 @@ function Shop() {
           <h1>Pages</h1>
         </div>
         <div>
-          <Image src="/login.png" alt="login" width={250} height={100} />
+          <Image src="/login.png" alt="login" width={350} height={70} />
         </div>
       </div>
 
@@ -364,12 +364,13 @@ function Shop() {
         ))}
       </div>
 
-      <div className="flex justify-center items-center pt-5 pb-5">
-        <Image src="/hooli.png" alt="hooli logo" width={300} height={140}/>
-        <Image src="/lyft.png" alt="lyft logo" width={300} height={140}/>
-        <Image src="/leaf.png" alt="leaf logo" width={300} height={140}/>
-        <Image src="/aws.png" alt="aws logo" width={300} height={140}/>
-        <Image src="/alien.png" alt="alien logo" width={300} height={140}/>
+      <div className="flex justify-center items-center pt-5 pb-5 gap-10">
+        <Image src="/hooli.png" alt="hooli logo" width={200} height={100}/>
+        <Image src="/lyft.png" alt="lyft logo" width={200} height={100}/>
+        <Image src="/leaf.png" alt="leaf logo" width={200} height={100}/>
+        <Image src="/strip.png" alt="leaf logo" width={200} height={100}/>
+        <Image src="/aws.png" alt="aws logo" width={200} height={100}/>
+        <Image src="/alien.png" alt="alien logo" width={200} height={100}/>
       </div>
               </div>  
                 </section>

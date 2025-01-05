@@ -67,17 +67,17 @@ const ProductGrid = () => {
           Problems trying to resolve the conflict between
         </h3>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {products.map((product, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg overflow-hidden shadow "
+            className="bg-white rounded-lg overflow-hidden shadow w-[300px] h-[500px]"
           >
             <Image
               src={product.image}
               alt={product.title}
-              width={500}
-              height={500}
+              width={400}
+              height={450}
               className=" mb-4 mx-auto"
             />
 

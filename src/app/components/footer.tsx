@@ -15,7 +15,7 @@ const Footer = () => {
               <Image src="/Bandage.png" alt="Bandage logo" width={250} height={50} className="w-[100px]" />
             </div>
             <div className="flex space-x-4">
-              <Image src="/social2.png" alt="Social media icons" width={250} height={50} className="w-[250px]" />
+              <Image src="/social2.png" alt="Social media icons" width={250} height={30} className="w-[250px]" />
             </div>
           </div>
           <div className="mt-10 mb-10 grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pt-10 pb-10 px-10 py-10">

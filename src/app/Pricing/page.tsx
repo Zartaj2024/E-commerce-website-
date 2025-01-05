@@ -35,7 +35,7 @@ export default function Pricing() {
               <Link href="/" className="text-black font-bold ">
                 Home
               </Link>
-              <h1 className="text-gray-500 text-3xl">›</h1>
+              
               <Link href="/Pricing" className="text-gray-500 font-bold">
                 Pricing
               </Link>
@@ -47,7 +47,7 @@ export default function Pricing() {
         <h1 className="text-black font-bold text-6xl">Pricing</h1>
         <p className="text-gray-500 font-bold p-10 text-center ">
           Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics{" "}
+          of Classical physics: Newtonian mechanics
         </p>
         <Image
           src="/switch.png"
@@ -82,7 +82,7 @@ export default function Pricing() {
                 <Image
                   src="/features-list.png"
                   alt="list"
-                  width={250}
+                  width={300}
                   height={150}
                   className="mx-auto"
                 />
@@ -200,7 +200,7 @@ export default function Pricing() {
             <div className="flex  gap-10 text-black justify-center ">
               <div className="w-[500px] font-bold">
                 <div className="flex gap-3">
-                  <h1 className="text-4xl text-start text-blue-500">›</h1>
+                  
                   <h1 className="text-2xl py-2 text-start">
                     the quick fox jumps over the lazy dog
                   </h1>
@@ -213,7 +213,7 @@ export default function Pricing() {
               </div>
               <div className=" font-bold w-[500px]">
                 <div className="flex gap-3 ">
-                  <h1 className="text-4xl text-start text-blue-500 ">›</h1>
+                  
 
                   <h1 className="text-2xl py-2">
                     the quick fox jumps over the lazy dog
@@ -230,7 +230,7 @@ export default function Pricing() {
             <div className="flex  gap-10 text-black justify-center text-center">
               <div className="w-[500px] font-bold">
                 <div className="flex gap-3">
-                  <h1 className="text-4xl text-start text-blue-500">›</h1>
+                  
                   <h1 className="text-2xl py-2 text-start">
                     the quick fox jumps over the lazy dog
                   </h1>
@@ -243,7 +243,7 @@ export default function Pricing() {
               </div>
               <div className=" font-bold w-[500px]">
                 <div className="flex gap-3 ">
-                  <h1 className="text-4xl text-start text-blue-500 ">›</h1>
+                  
 
                   <h1 className="text-2xl py-2">
                     the quick fox jumps over the lazy dog
@@ -260,7 +260,7 @@ export default function Pricing() {
             <div className="flex  gap-10 text-black justify-center text-center">
               <div className="w-[500px] font-bold">
                 <div className="flex gap-3">
-                  <h1 className="text-4xl text-start text-blue-500">›</h1>
+                  
                   <h1 className="text-2xl py-2 text-start">
                     the quick fox jumps over the lazy dog
                   </h1>
@@ -273,7 +273,7 @@ export default function Pricing() {
               </div>
               <div className=" font-bold w-[500px]">
                 <div className="flex gap-3 ">
-                  <h1 className="text-4xl text-start text-blue-500 ">›</h1>
+                  
 
                   <h1 className="text-2xl py-2">
                     the quick fox jumps over the lazy dog
@@ -288,7 +288,7 @@ export default function Pricing() {
             </div>
           </div>
           <div>
-            <h1 className="text-center py-10 font-bold text-gray-500 text-1xl">Haven’t got your answer? Contact our support</h1>
+            <h1 className="text-center py-10 font-bold text-gray-500 text-1xl">Havent got your answer? Contact our support</h1>
           </div>
         </div>
       </section>
