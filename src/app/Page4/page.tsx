@@ -126,9 +126,15 @@ met sent.</p>
             width={300}
             height={300}
           />
+          <div>
           <h1 className="font-bold text-black">{member.title}</h1>
+          </div>
+          <div>
           <h1 className="font-bold text-gray-500">{member.profession}</h1>
+          </div>
+          <div>
           <Image src="/social2.png" alt="social" width={200} height={30} className="x-10 y-10"/>
+          </div>
         </div>
       ))}
     </Link>
@@ -157,15 +163,15 @@ met sent.</p>
 </section>
 
       <section>
-      <div className="flex justify-center items-center  bg-[#2A7CC7] ">
+      <div className="flex justify-center items-center  bg-[#2A7CC7] h-full w-full">
       <div className="space-y-10 space-x-20 px-[230px] text-white text-start font-bold bg-blue-">
         <div><h1 className="px-20"> WORK WITH US</h1></div>
         <div><h1 className="font-bold text-6xl">Now Lets grow Yours</h1></div>
         <div><h1 className="text-white">The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th </h1></div>
-        <div>        <button className="bg-blue-400 text-white font-bold py-4 px-4 border border-white rounded hover:bg-blue-700">Button</button></div>
+        <div>        <button className=" bg-[#2A7CC7] text-white font-bold py-4 px-4 border border-white rounded hover:bg-blue-700">Button</button></div>
       </div>
       <div className="x-20 ml">
-        <Image src="/page333.png" alt="bg" width={600} height={600} className=" y-20 w-[600px] h-[600px]"/>
+        <Image src="/page333.png" alt="bg" width={610} height={610} className=" y-20 w-[610px] h-[610px]"/>
       </div>
       </div>
       </section>

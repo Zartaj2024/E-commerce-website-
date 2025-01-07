@@ -18,7 +18,7 @@ const EditorPick = () => {
 
         {/* Grid */}
         
-        <div className="justify-center items-center w-full h-full p-[100px]">
+        <div className="justify-center items-center w-full h-full p-[100px] ">
           <div className="grid  justify-center items-center grid-cols-1 md:grid-cols-3 gap-4 w-full h-full  ">
             {/* Large Image */}
             <div className="col-2 relative ">

@@ -132,7 +132,7 @@ export default function Team() {
             </div>
             <div className=" justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-10  ">
             {team.map((member, number) => (
-        <div key={number} className="space-y-2 justify-center text-center py-10 px-10">
+        <div key={number} className="space-y-5 justify-center text-center py-10 px-10">
           <Image
             src={member.image}
             alt="Team Member"
@@ -140,9 +140,15 @@ export default function Team() {
             height={300}
             className="mx-auto"
           />
+          
           <h1 className="font-bold text-black">{member.title}</h1>
+          
+          
           <h1 className="font-bold text-gray-500">{member.profession}</h1>
+          
+          
           <Image src="/social2.png" alt="social" width={250} height={30} className="mx-auto"/>
+          
         </div>
       ))}
             </div>
