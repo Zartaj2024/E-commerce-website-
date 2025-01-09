@@ -74,18 +74,18 @@ export default function Page2() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-[200px] bg-white px-[350px] p-8">
+      <div className="flex flex-row justify-center items-center gap-[200px] bg-white px-[350px] p-8 w-full">
         <h1 className="font-bold text-black">Showing all 12 results</h1>
         <Image src="/Page2sort.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
         <Image src="/Page2sort2.png" alt="Page22" className="h-[60px] w-[250px]" width={250} height={60} />
       </div>
       <div className="bg-[#FAFAFA] px-[160px] h-[200px] px-10 py-10 justify-center text-center">
-        <Image src="/hooli.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
-        <Image src="/lyft.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
-        <Image src="/leaf.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
-        <Image src="/strip.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
-        <Image src="/aws.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
-        <Image src="/alien.png" alt="Page23" className="h-[200px] w-[100px]" width={200} height={100} />
+        <Image src="/hooli.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
+        <Image src="/lyft.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
+        <Image src="/leaf.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
+        <Image src="/strip.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
+        <Image src="/aws.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
+        <Image src="/alien.png" alt="Page23" className="h-[200px] w-[100px]" width={150} height={100} />
       </div>
 
       <div>

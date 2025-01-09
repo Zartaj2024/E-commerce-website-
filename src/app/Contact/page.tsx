@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div>
       <section>
-        <div className="bg-[url('/Cfamilt.png')] bg-cover bg-white">
+        <div className="bg-[url('/Cfamilt.png')] bg-cover bg-white w-full">
           <div className="flex justify-between items-center px-[100px] py-5">
             <div>
               <Image src="/Bandage.png" alt="logo" width={150} height={50} />
