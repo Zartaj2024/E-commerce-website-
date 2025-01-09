@@ -6,7 +6,7 @@ import React from "react";
 export default function HeroSection() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center h-full py-2 bg-gray-100 w-full p-40 " >
-      <div className="relative w-[1160px] h-[960px] px-24 py-5 bg-[url('/hero-cover-1.png')] bg-cover">
+      <div className="relative w-[650px] h-[850px] px-24 py-5 bg-[url('/hero-cover-1.png')] bg-cover">
  
         
       </div>
