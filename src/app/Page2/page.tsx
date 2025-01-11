@@ -14,7 +14,7 @@ export default function Page2() {
               <Image src="/phone.png" alt="phone" className="w-[20px] h-[20px]" width={20} height={20} />
             </div>
             <div>(225) 555-0118</div>
-          </div>
+         </div>
           <div className="flex gap-1">
             <p className="flex pb-3 pt-3 gap-2">
               <Image src="/mail.png" alt="mail" className="w-[20px] h-[20px]" width={20} height={20} />

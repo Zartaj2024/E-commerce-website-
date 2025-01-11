@@ -1,11 +1,10 @@
 import React from "react";
-
 import Image from "next/legacy/image";
 
 const EditorPick = () => {
   return (
     <section className="py-16 w-full h-full bg-white  ">
-      <div className="justify-center items-center ">
+      <div className="mx-auto ">
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl text-gray-800 md:text-3xl font-bold uppercase">
@@ -18,7 +17,7 @@ const EditorPick = () => {
 
         {/* Grid */}
         
-        <div className="justify-center items-center w-full h-full p-[100px] ">
+        <div className="mx-auto ml-[250px] mr-[250px] w-full h-full p-[100px] ">
           <div className="grid  justify-center items-center grid-cols-1 md:grid-cols-3 gap-4 w-full h-full  ">
             {/* Large Image */}
             <div className="col-2 relative ">
