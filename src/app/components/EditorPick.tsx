@@ -8,7 +8,7 @@ const EditorPick = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl text-gray-800 md:text-3xl font-bold uppercase">
-            Editors Pick
+            Editor&apos;s Pick
           </h2>
           <p className="text-gray-500 mt-2 font-bold">
             Problems trying to resolve the conflict between
