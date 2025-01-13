@@ -20,15 +20,15 @@ const VitaClassicProduct = () => {
           </button>
         </div>
       </div>
-    <div className=" ">
+    <div className=" bg-[url('/shop-hero.png')] bg-cover w-[600px] h-[800px] mt-[125px]">
         
-          <Image
+          {/* <Image
             src="/shop-hero.png"
             alt="Vita Classic Product"
             width={200}
             height={200}
             className="w-[200px] h-[200px] "
-          />
+          /> */}
         
       </div>
      
