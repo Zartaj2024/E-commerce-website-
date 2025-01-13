@@ -46,7 +46,7 @@ export default function About() {
        
       </div>
         <div className="flex justify-center items-center px-[150px] w-full ">
-       <div className="space-y-10 space-x-20 text-black text-start font-bold">
+       <div className="space-y-10 space-x-10 text-black text-start font-bold">
         <div><h1 className="px-20">ABOUT COMPANY</h1></div>
         <div><h1 className="font-bold text-7xl">ABOUT US</h1></div>
         <div><h1 className="text-gray-500">We know how large objects will act,
