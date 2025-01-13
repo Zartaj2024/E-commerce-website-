@@ -20,7 +20,7 @@ const VitaClassicProduct = () => {
           </button>
         </div>
       </div>
-    <div className="w-[500px] h-[1000px] ">
+    <div className=" ">
         
           <Image
             src="/shop-hero.png"
