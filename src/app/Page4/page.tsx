@@ -54,7 +54,7 @@ export default function About() {
         <div>        <button className="bg-blue-400 text-white font-bold py-4 px-4 rounded hover:bg-blue-700">Get Quote Now</button></div>
       </div>
       <div className="x-20">
-        <Image src="/background.jpg" alt="bg" width={1300} height={850} className=" y-20 w-[1300px] h-[850px]"/>
+        <Image src="/background.jpg" alt="bg" width={1300} height={850} className=" y-20 w-[1200px] h-[850px]"/>
       </div>
       </div>
      </section>
