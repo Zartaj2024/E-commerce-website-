@@ -27,7 +27,7 @@ const VitaClassicProduct = () => {
             alt="Vita Classic Product"
             width={700}
             height={900}
-            className="w-full h-full mt-[20px] "
+            className="w-full h-full "
           />
         
       </div>
