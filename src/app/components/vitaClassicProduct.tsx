@@ -25,8 +25,8 @@ const VitaClassicProduct = () => {
           <Image
             src="/shop-hero.png"
             alt="Vita Classic Product"
-            width={600}
-            height={500}
+            width={100}
+            height={100}
             className="w-full h-full "
           />
         
