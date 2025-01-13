@@ -45,7 +45,7 @@ export default function About() {
        </div>
        
       </div>
-        <div className="flex justify-center items-center px-[150px] w-full ">
+        <div className="flex justify-center items-center px-[100px] w-full ">
        <div className="space-y-10 space-x-10 text-black text-start font-bold">
         <div><h1 className="px-20">ABOUT COMPANY</h1></div>
         <div><h1 className="font-bold text-7xl">ABOUT US</h1></div>
